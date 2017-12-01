@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="test_hello"
+    errors="0" failures="1" hostname="" id="" package="test_hello" skipped="0"
+    tests="1" time="11.19" timestamp="Thu, 30 Nov 2017 17:17:32 GMT">
+  
+    <testcase name="Test Backbone App" classname="test_hello" time="11.19" assertions="2">
+
+      <failure message="Testing if the page title equals &quot;QuickStart - Backbone&quot;.">    at Object.Test Backbone App (/Users/uzie/Documents/JSFW/nigthWatch/testnw/tests/test_hello.js:8:15)
+    at _combinedTickCallback (internal/process/next_tick.js:73:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

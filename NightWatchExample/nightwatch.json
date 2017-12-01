@@ -1,0 +1,36 @@
+{
+  "src_folders": ["tests"],
+  "output_folder": "reports",
+
+  "test_workers" : {"enabled" : true, "workers" : "auto"},
+  "test_settings": {
+    "default": {
+      "launch_url": "http://localhost",
+      "default_path_prefix": "/nexperience/perfectomobile/wd/hub",
+      "selenium_port": 80,
+      "selenium_host": "[YourCloud].perfectomobile.com",
+      "launch_url": "http://[YourCloud].perfectomobile.com",
+      "silent": true,
+       "desiredCapabilities": {
+         "user": "[Your Cloud User]",
+         "password": "[Your Cloud Password]"
+      }
+    },
+    "ios": {
+      "desiredCapabilities": {
+        "user": "[Your Cloud User]",
+        "password": "[Your Cloud Password]",
+        "browserName": "mobileOS",
+        "deviceName": "D46F153EC7AA6A2C5D6FA15F3CBF31A1FAF7C0C5"
+      }
+    },
+    "android" : {
+      "desiredCapabilities": {
+      "user": "[Your Cloud User]",
+      "password": "[Your Cloud Password]",
+      "browserName": "mobileOS",
+      "deviceName": " 9887BC443241585150"
+      }
+    }
+  }
+}
