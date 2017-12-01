@@ -9,7 +9,7 @@ how does it work:
               * execute it on two devices in parallel 
             
 How to add a devices:
-    * Add the following to **nightwatch.json**
+    <br/>  Add the following to **nightwatch.json**
     
     ```
     "ios": {
@@ -20,3 +20,13 @@ How to add a devices:
     "deviceName": "DeviceID"
     }
     ```
+    
+How to execute:
+     <br /> 
+     add -e with the list of the devices added to the nightwatch.json
+     
+     
+     For example
+     nightwatch -e ios,android
+    
+   
